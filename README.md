@@ -4,10 +4,6 @@
 
 **Title**: Aligning Social Media Recommendation Systems with Human Well-being: A Comprehensive Evaluation of Inverse Reinforcement Learning Approaches
 
-**Version**: Final (v2.0)
-**Last Updated**: March 2026
-**Status**: Ready for Submission
-
 ---
 
 ## Abstract
@@ -354,17 +350,3 @@ Computational requirements:
 - **Time**: ~2 hours for full experimental suite
 
 ---
-
-## License
-
-MIT License - See LICENSE file for details.
-
----
-
-## Contact
-
-For questions, issues, or collaboration inquiries, please contact the authors.
-
----
-
-**Research Package Complete** - All code, data, figures, and documentation included.
