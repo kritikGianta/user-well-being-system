@@ -21,18 +21,6 @@ This research provides a comprehensive empirical evaluation of Inverse Reinforce
 ## Directory Structure
 
 ```
-final_files/
-|
-+-- README.md                    # This file
-+-- LICENSE                      # MIT License
-|
-+-- paper/                       # Research Papers
-|   +-- FINAL_RESEARCH_PAPER.docx       # Main paper (ALL improvements)
-|   +-- COMBINED_RESEARCH_PAPER.docx    # Combined paper (v1)
-|   +-- FINAL_REPORT_UPDATED.docx       # Technical report
-|   +-- 03_RESEARCH_PAPER.docx          # Conference paper
-|   +-- AAAI_PAPER.docx                 # AAAI format
-|
 +-- code/                        # Source Code
 |   +-- core/                    # Core implementations
 |   |   +-- irl_methods.py              # All IRL methods (ML-IRL, PB-IRL, MaxEnt, RLHF)
