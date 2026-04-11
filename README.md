@@ -22,95 +22,29 @@ This research provides a comprehensive empirical evaluation of Inverse Reinforce
 
 ```
 +-- code/                        # Source Code
-|   +-- core/                    # Core implementations
-|   |   +-- irl_methods.py              # All IRL methods (ML-IRL, PB-IRL, MaxEnt, RLHF)
-|   |   +-- rlhf_ppo.py                 # Complete RLHF with PPO
-|   |   +-- policy_rollout.py           # Policy simulation & analysis
-|   |   +-- qualitative_examples.py     # Trajectory comparison generator
-|   |   +-- environment.py              # MDP environment
-|   |   +-- maxent_irl.py               # MaxEnt IRL implementation
-|   |   +-- preference_based_irl.py     # Preference-based IRL
-|   |   +-- ppo.py                      # PPO algorithm
-|   |   +-- deep_reward_model.py        # Neural reward networks
-|   |
-|   +-- baselines/               # Baseline methods
-|   |   +-- reward_shaping_baselines.py # Simple/Adaptive/Optimized shaping
-|   |   +-- rlhf_baseline.py            # Simplified RLHF baseline
-|   |
-|   +-- evaluation/              # Evaluation code
-|   |   +-- counterfactual.py           # IPS, SNIPS, CIPS, DR estimators
-|   |
-|   +-- experiments/             # Experiment scripts
-|       +-- comprehensive_comparison_experiment.py
-|       +-- run_all.py
-|
-+-- data/                        # Data Files
-|   +-- raw/                     # Raw experimental data
-|   |   +-- demonstrations.json
-|   |   +-- preference_data.json
-|   |   +-- state_action_pairs.json
-|   |
-|   +-- results/                 # Experiment results
-|   |   +-- rlhf_results.json           # RLHF with PPO results
-|   |   +-- training_curves.json        # Training dynamics
-|   |   +-- comparison_summary.json     # Method comparisons
-|   |   +-- trajectory_comparisons.json # Qualitative examples
-|   |   +-- policy_comparison_table.json
-|   |   +-- counterfactual_evaluation_results.json
-|   |   +-- (+ various experiment results)
-|   |
-|   +-- processed/               # Processed data
-|       +-- recsys_citations.json
-|       +-- contribution_reframing.json
-|       +-- technical_investigation.json
-|
-+-- figures/                     # All Figures and Plots
-|   +-- policy_rollout/          # Policy analysis figures
-|   |   +-- fatigue_over_time.png
-|   |   +-- engagement_burnout_tradeoff.png
-|   |   +-- wellbeing_trajectory.png
-|   |
-|   +-- training_curves/         # Training visualizations
-|   |
-|   +-- comparisons/             # Method comparison plots
-|   |   +-- 01_maxent_loss_curve.png
-|   |   +-- 02_rlhf_loss_dynamics.png
-|   |   +-- 03_rlhf_accuracy_dynamics.png
-|   |   +-- 04_reward_shaping_comparison.png
-|   |   +-- 05_method_accuracy_comparison.png
-|   |   +-- 06_training_time_comparison.png
-|   |   +-- 07_user_type_distribution.png
-|   |   +-- 08_engagement_wellbeing_tradeoff.png
-|   |   +-- (+ more comparison figures)
-|   |
-|   +-- ablations/               # Ablation study figures
-|       +-- ablation_analysis.png
-|       +-- cold_start_analysis.png
-|       +-- diversity_analysis.png
-|       +-- statistical_analysis.png
-|       +-- threshold_analysis.png
-|
-+-- tables/                      # Table Data
-|   +-- policy_comparison_table.json
-|   +-- PAPER_TABLES_TEMPLATE.md
-|
-+-- configs/                     # Configuration Files
-|   +-- hyperparameters.yaml
-|   +-- hyperparameters.json
-|   +-- requirements.txt
-|
-+-- documentation/               # Documentation
-|   +-- IMPROVEMENTS_README.md
-|   +-- PAPER_UPDATE_SUMMARY.txt
-|   +-- IMPROVEMENTS_MASTER_SUMMARY.txt
-|   +-- trajectory_comparisons.md
-|   +-- MATHEMATICAL_FORMULATIONS.md
-|   +-- QUICKSTART.md
-|
-+-- supplementary/               # Supplementary Materials
-    +-- trajectory_figure.tex          # LaTeX figure code
-    +-- additional_recsys_citations.bib
-    +-- citations_to_add.bib
+   +-- core/                    # Core implementations
+   |   +-- irl_methods.py              # All IRL methods (ML-IRL, PB-IRL, MaxEnt, RLHF)
+   |   +-- rlhf_ppo.py                 # Complete RLHF with PPO
+   |   +-- policy_rollout.py           # Policy simulation & analysis
+   |   +-- qualitative_examples.py     # Trajectory comparison generator
+   |   +-- environment.py              # MDP environment
+   |   +-- maxent_irl.py               # MaxEnt IRL implementation
+   |   +-- preference_based_irl.py     # Preference-based IRL
+   |   +-- ppo.py                      # PPO algorithm
+   |   +-- deep_reward_model.py        # Neural reward networks
+   |
+   +-- baselines/               # Baseline methods
+   |   +-- reward_shaping_baselines.py # Simple/Adaptive/Optimized shaping
+   |   +-- rlhf_baseline.py            # Simplified RLHF baseline
+   |
+   +-- evaluation/              # Evaluation code
+   |   +-- counterfactual.py           # IPS, SNIPS, CIPS, DR estimators
+   |
+   +-- experiments/             # Experiment scripts
+       +-- comprehensive_comparison_experiment.py
+       +-- run_all.py
+
+
 ```
 
 ---
